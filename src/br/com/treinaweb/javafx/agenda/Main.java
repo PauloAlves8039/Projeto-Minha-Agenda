@@ -1,3 +1,10 @@
+/*
+ * Arquivo: Classe - Main
+ * Autor: Paulo Alves
+ * Descrição: utilizada como entry point(ponto de entrada) para execução da aplicação. 
+ * Data: 28/12/2019
+*/
+
 package br.com.treinaweb.javafx.agenda;
 	
 import javafx.application.Application;
