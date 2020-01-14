@@ -31,7 +31,6 @@ public class ContatoRepositorio implements AgendaRepositorio<Contato> {
 	public void atualizar(Contato entidade) {
 		var original = contatos.stream().filter(contato -> contato.getNome().equals(entidade.getNome())).findFirst();
 		if (original.isPresent()) {
-			original.get().setNome(entidade.getNome());
 			original.get().setIdade(entidade.getIdade());
 			original.get().setTelefone(entidade.getTelefone());
 		}
